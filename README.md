@@ -1,0 +1,2 @@
+# MongoDB Case-Insensitive Query Error
+This repository demonstrates a common error encountered when performing case-insensitive queries in MongoDB using regular expressions. The error occurs when the targeted field contains a data type other than a string.  The solution involves adding explicit type checking before executing the query.
